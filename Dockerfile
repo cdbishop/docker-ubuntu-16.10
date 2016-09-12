@@ -5,4 +5,4 @@ MAINTAINER VCA Technology <developers@vcatechnology.com>
 RUN apt-get update && \
   apt-get -y dist-upgrade && \
   apt-get -y autoremove && \
-  apt-get clear
+  apt-get clean
